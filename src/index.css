@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #0f172a;
+  background: #eef2f7;
+  font-family: Tajawal, "IBM Plex Sans Arabic", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top right, rgba(17, 185, 125, 0.08), transparent 26%),
+    linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(17, 185, 125, 0.18);
+}
